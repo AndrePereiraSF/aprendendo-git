@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>Pagina Teste</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    04/05/2018 - 11:00h - Testando Github
-    04/05//2018 - 19:36h - Uma atualização foi adicionada! 
-</body>
+    <head>
+	<meta charset="utf-8" />
+        <title>Pagina Teste</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<script>
+	   function click
+		document.GetElementById('saida').innerHTML = "Você clicou no botão!"
+	</script>
+    </head>
+    <body>
+	<p>04/05/2018 - 11:00h - Testando Github</p>
+	<p>04/05/2018 - 19:36h - Uma atualização foi adicionada!</p>		 
+	<div>
+	   <input type='button' id='click' onclick='click()'> 
+	</div>
+	<div>
+	   <p id='saida'>Olá</p>
+	</div>		    
+    </body>
 </html>
